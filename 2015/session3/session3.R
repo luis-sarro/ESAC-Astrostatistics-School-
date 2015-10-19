@@ -1,4 +1,4 @@
-setwd("~/Escritorio/ESAC-Astrostats/2015/session3")
+setwd("~/Escritorio/ESAC-Astrostatistics-School-/2015/session3/")
 
 # In this session, we will be introducing priors for the first time.
 # So, first, a word of warning about priors:

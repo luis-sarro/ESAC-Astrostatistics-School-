@@ -1,6 +1,6 @@
 #set.seed(10)
 
-setwd("~/Escritorio/ESAC-Astrostats/2015/session2")
+setwd("~/Escritorio/ESAC-Astrostatistics-School-/2015/session2/")
 rm(list=ls()) # Remove any previous variable
 require("mvtnorm") # Load library for multivariate normals
 
