@@ -73,6 +73,9 @@ fit <- stan(file="spectrum.mod",data=data,init=initf,iter=500,chains=3)
 #fit <- stan(fit,data=data,init=initf,iter=200,chains=5)
 
 fit.man <- extract(fit,inc_warmup=T)
+traceplot(fit)
+print(fit)
+
 plot(fit.man$h2)
 plot(fit.man$w2)
 plot(density(fit.man$w2))
